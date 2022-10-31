@@ -1,0 +1,25 @@
+.menuMobile {
+    position: absolute; // Flutuar por cima de todos os itens.
+    top: 0; // Para ficar encostado no topo.
+    left: -100%; // Para encostar no canto esquerdo // Para fora da tela.
+    width: 150px; // Largura.
+    height: 100vh; // 100% da tela .
+    background-color: black; // cor do fundo.
+    color: white; // Cor do texto.
+    transition: 800ms ease; // Tempo de transição
+}
+
+.menuMobile.aberto {
+    left: 0%; // Faz o menu aparecer novamente.
+}
+
+.botaoMenu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.botaoMenu:hover { // Efeitos.
+    font-weight: bold;
+    cursor: pointer;
+}
